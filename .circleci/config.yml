@@ -72,10 +72,3 @@ workflows:
       - deploy:
           requires:
             - hold
-          variables: 
-            AWS_REGION: us-east-1
-            AWS_PROFILE: default
-            AWS_BUCKET: arn:aws:s3:::udagram-kotb
-            EnvironmentName: udagram-api-dev-3
-            AWS_ACCESS_KEY_ID: AKIAVAA6U5UG7PHZYPWM
-            AWS_SECRET_ACCESS_KEY: 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
