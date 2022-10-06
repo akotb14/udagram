@@ -3,6 +3,9 @@
   "version": "2.0.0",
   "description": "",
   "main": "server.ts",
+  "engines": {
+    "node": "16.16.0"
+  },
   "scripts": {
     "start": "node ./src/server.ts",
     "tsc": "tsc",
