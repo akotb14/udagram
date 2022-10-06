@@ -7,7 +7,7 @@
     "node": "16.16.0"
   },
   "scripts": {
-    "start": "node ./src/server.ts",
+    "start": "node ./server.js",
     "tsc": "tsc",
     "dev": "npx ts-node-dev --respawn --transpile-only ./src/server.ts",
     "prod": "npx tsc && node ./www/server.js",
