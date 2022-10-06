@@ -70,5 +70,6 @@ workflows:
           requires:
             - build
       - deploy:
+          environment-name: udagram-api-dev-3
           requires:
             - hold
